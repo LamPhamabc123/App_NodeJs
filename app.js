@@ -14,13 +14,15 @@ app.set('view engine', 'handlebars');
 app.get('/', (req, res) => {
   const title = 'Welcome';
   res.render('index', {
-    title: title
+    title: 'Welcome'
   });
 });
 
 // About Route
 app.get('/about', (req, res) => {
-  res.render('about');
+  res.render('about', {
+      title: 'About'
+  });
 });
 
 const port = 5000;
