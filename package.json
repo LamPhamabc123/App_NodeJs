@@ -1,0 +1,31 @@
+{
+  "name": "app_nodejs",
+  "version": "1.0.0",
+  "description": "create app nodejs demo.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamPhamabc123/App_NodeJs.git"
+  },
+  "author": "LamPham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamPhamabc123/App_NodeJs/issues"
+  },
+  "homepage": "https://github.com/LamPhamabc123/App_NodeJs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^4.11.12",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
